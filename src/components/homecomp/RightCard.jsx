@@ -16,7 +16,9 @@ const RightCard = ({items}) => {
           <p className='right-title'>{items.title}</p>
           <div className='extra-details'>
             <p className='right-description'>{items.description}</p>
-            <button className='main-button'>Watch now</button>
+            <div className='right-button'>
+              <button className='main-button'>Watch now</button>
+            </div>
           </div>
         </div>
       </div>

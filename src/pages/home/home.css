@@ -13,21 +13,21 @@
   width: 35%;
 }
 
-@media (max-width: 500px) {
+/* media queries */
+
+@media only screen and (max-width: 480px) {
   .home-items {
     display: grid;
     grid-template-columns: repeat(1, 100%);
+    margin: 2rem;
   }
   .home-item-left {
     width: 100%;
   }
   .home-item-right {
     width: 100%;
-    margin-top: 2rem;
   }
 }
-
-
 
 
 

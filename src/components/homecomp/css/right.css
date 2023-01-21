@@ -63,28 +63,44 @@
   cursor: pointer;
 }
 
-@media (max-width: 500px) {
-  .right-header-details {
-    display: flex;
-    margin-top: -0.90rem;
-  }
+/* media queries */
+
+@media only screen and (max-width: 480px) {
   .right-header-card {
     display: block;
     width: 100%;
-  }
-  .right-header-image {
-    width: 100%;
+    margin-bottom: 1.5rem;
   }
   .right-header-detail {
     width: 100%;
     margin: 0px;
-    margin-bottom: 1.2rem;
+  }
+  .right-header-image {
+    width: 100%;
+  }
+  .right-header-details {
+    display: flex;
+    margin-top: -.70rem;
+  }
+  .right-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .main-button {
-    border: none;
-    background-color: orange;
     width: 100%;
-    padding: 2px;
-    margin-top: 0.60rem;
+    margin: 1rem;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
